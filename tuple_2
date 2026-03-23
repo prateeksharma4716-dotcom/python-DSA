@@ -1,0 +1,11 @@
+def calc(a, b):
+    return a+b, a*b
+
+s, p = calc(5, 3)
+print(s, p)
+
+def student_info():
+    return ("Prateek", 25, "Kanpur")
+
+name, age, city = student_info()
+print(name, age, city)
