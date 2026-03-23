@@ -1,0 +1,10 @@
+dictionary = {
+    "apple": "a sweet red or green fruit",
+    "book": "a set of written or printed pages",
+    "python": "a programming language",
+    "computer": "an electronic device for processing data"
+}
+
+# Sort by keys
+for word in sorted(dictionary.keys()):
+    print(f"{word}: {dictionary[word]}")
