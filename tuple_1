@@ -1,0 +1,11 @@
+numbers = (15, 3, 9, 20, 7, 1, 12)
+
+asc = tuple(sorted(numbers))
+print(asc)
+
+desc = tuple(sorted(numbers, reverse=True))
+print(desc)
+
+pairs = ((2, 5), (1, 9), (4, 3), (3, 7))
+sorted_pairs = tuple(sorted(pairs, key=lambda x: x[1]))
+print(sorted_pairs)
